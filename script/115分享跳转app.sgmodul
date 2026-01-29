@@ -7,4 +7,3 @@
 
 [MITM]
 hostname = %APPEND% 115.com, 115cdn.com
-
