@@ -1,9 +1,5 @@
-#!name=115_share_rewrite
-#!desc=115分享重写
-#!author=chas
-#!icon=https://raw.githubusercontent.com/chas0000/script/main/115生活.png
-#!loon_version=3.3.2(877)
-#!homepage=https://github.com/chas0000/script/readme.md
+#!name=115分钟跳转app
+#!desc=115分享跳转app
 
 [URL Rewrite]
 ^https:\/\/115\.com\/s\/(.*) oof.disk://openurl/https://115.com/s/$1 302
