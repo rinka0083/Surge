@@ -1,0 +1,9 @@
+#!name=Github 429
+#!desc=解除 Github 429 限制
+
+[Header Rewrite]
+# 解除Github速率限制 返回429问题
+http-request (raw|gist).githubusercontent.com header-replace Accept-Language en-us
+
+[MITM]
+hostname = %APPEND% raw.githubusercontent.com,gist.githubusercontent.com
